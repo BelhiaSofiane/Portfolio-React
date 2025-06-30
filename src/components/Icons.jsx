@@ -1,7 +1,7 @@
 // Icon components using inline SVGs
 const Icons = {
   Terminal: () => (
-    <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" className="w-12 h-12">
+    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" className="w-12 h-12">
       <rect width="120" height="80" x="4" y="24" rx="6" fill="#000"/>
       <rect width="112" height="72" x="8" y="28" rx="4" fill="#1e1e1e"/>
       <circle cx="16" cy="36" r="3" fill="#ff5f56"/>
