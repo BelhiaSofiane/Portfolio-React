@@ -15,7 +15,7 @@ const Projects = () => {
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
-          <h3 className="text-lg font-semibold mb-1">Responsive Web Design</h3>
+          <h3 className="text-lg font-semibold mb-1">Quizzical Game</h3>
           <p className="text-sm mb-4">
             Quizzical is a trivia quiz app built with React. It fetches
             multiple-choice questions from the Open Trivia Database API and
@@ -53,7 +53,7 @@ const Projects = () => {
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
-          <h3 className="text-lg font-semibold mb-1">Task Management App</h3>
+          <h3 className="text-lg font-semibold mb-1">Tenzies Game</h3>
           <p className="text-sm mb-4">
             Tenzies Game is a fun and interactive dice game built with React.
             The goal is to roll until all ten dice show the same number. Players
