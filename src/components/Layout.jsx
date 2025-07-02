@@ -4,65 +4,41 @@ import Icons from "./Icons";
 import { useTheme } from "../contexts/ThemeContext";
 
 const Layout = ({ children }) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
+  const { isDark, toggleTheme } = useTheme();
 
-  const [isDark, setIsDark] = useState(() => {
-    // Check localStorage or system preference
-    const saved = localStorage.getItem("theme");
-    if (saved) {
-      return saved === "dark";
-    }
-    return window.matchMedia("(prefers-color-scheme: dark)").matches;
-  });
+  const location = useLocation();
 
   useEffect(() => {
-    // Update document class and localStorage
-    if (isDark) {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    }
-  }, [isDark]);
-
-  const toggleTheme = () => {
-    setIsDark(!isDark);
-  };
-
-  // Close mobile menu when route changes
-
+    setMenuOpen(false);
+  }, [location]);
 
   return (
-    <div className=" text-black dark:bg-gray-900 dark:text-white transition-colors duration-250 flex flex-col min-h-screen ">
+    <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white transition-colors duration-250">
       {/* Navbar */}
-      <nav className="sticky left-0 top-0 w-full bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 z-40">
-        <div className="flex justify-between items-center p-4">
+      <nav className="sticky top-0 z-40 w-full bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700">
+        <div className="flex justify-between items-center px-4 py-2">
           {/* Logo */}
-          <div className="flex items-center">
+          <div className="flex items-center w-12">
             <a
               href="https://www.linkedin.com/in/sofiane-belhia-1696b5285/"
               target="_blank"
             >
               <Icons.LinkedIn />
             </a>
-            <p className="ml-2">Sofiane Belhia</p>
+
           </div>
           {/* Navigation */}
-          <div className="flex items-center justify-between space-x-4 gap-12  text-white">
+          <div className="flex items-center justify-between space-x-4 gap-12 text-white">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
           </div>
           {/* Theme Toggle */}
-          <div className="flex items-center space-x-4 border border-gray-700 rounded-xs p-2">
-            <button
-              onClick={() => {
-                toggleTheme();
-              }}
-            >
+          <div className="flex items-center space-x-4 border border-gray-700 rounded-xs p-2 ">
+            <button onClick={toggleTheme}>
               {isDark ? <Icons.Moon /> : <Icons.Sun />}
             </button>
           </div>
