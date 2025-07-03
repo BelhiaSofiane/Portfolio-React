@@ -15,7 +15,7 @@ const Home = () => {
       <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-xl">
         Hi, I’m Sofiane, a passionate self-taught developer eager to create innovative solutions and grow in the tech world.
       </p>
-
+ 
       <div className="flex flex-col md:flex-row items-center gap-8">
         {/* Profile image */}
         <img src={img} alt="Profile Photo" className="w-40 h-40 rounded-full object-cover shadow-md" />
@@ -24,7 +24,7 @@ const Home = () => {
         <ul className="text-left space-y-4">
           <li className="flex items-center gap-3">
             <span className="computer-icon"></span>
-            <span>Skilled in JavaScript, HTML5, and CSS3 (including Tailwind).</span>
+            <span>Skilled in JavaScript, HTML5, CSS3 and React.</span>
           </li>
           <li className="flex items-center gap-3">
             <span className="database-icon"></span>
@@ -35,6 +35,11 @@ const Home = () => {
             <span>Focused on building fully responsive, mobile-first interfaces.</span>
           </li>
         </ul>
+      </div>
+      <div>
+        {
+          
+        }
       </div>
     </section>
   );
