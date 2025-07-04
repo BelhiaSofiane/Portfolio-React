@@ -1,5 +1,5 @@
-import emailjs from '@emailjs/browser'; 
 import    { useRef } from 'react';
+import emailjs from '@emailjs/browser'; 
 
 
 const Contact = () => {
@@ -62,7 +62,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Form */}
-        <form className="p-6 rounded-xl shadow-md w-full max-w-md mx-auto space-y-4">
+        <form ref={form} onSubmit={sendEmail} className="p-6 rounded-xl shadow-md w-full max-w-md mx-auto space-y-4">
           <h3 className="text-left font-medium">Contact Form</h3>
           <input
             type="text"
