@@ -9,7 +9,7 @@ const Home = () => {
     // Main section of the Home component
     <section className="flex flex-col items-center justify-center text-center px-4">
       {/* Heading */}
-      <h1 className="text-3xl md:text-4xl font-bold mb-4">Welcome to  <span className="text-blue-500">My Portfolio</span> </h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-4"> Welcome to My Portfolio </h1>
       
       {/* Introduction paragraph */}
       <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-xl">

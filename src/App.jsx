@@ -1,14 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
-import { ThemeProvider } from './contexts/ThemeContext'
 import Projects from './pages/Projects'
 import Layout from './components/Layout'
 import Contact from './pages/Contact'
 
 function App() {
   return (
-    <ThemeProvider>
       <Router>
         <Layout>
           <Routes>
@@ -19,7 +17,6 @@ function App() {
           </Routes>
         </Layout>
       </Router>
-    </ThemeProvider>
   )
 }
 
