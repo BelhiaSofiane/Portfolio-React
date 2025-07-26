@@ -58,8 +58,7 @@ const Projects = () => {
             Tenzies Game is a fun and interactive dice game built with React.
             The goal is to roll until all ten dice show the same number. Players
             can click to "hold" dice between rolls, and the game tracks the
-            number of rolls and time taken. A simple yet engaging project that
-            demonstrates React state management and conditional rendering.
+            number of rolls and time taken.
           </p>
           <div className="flex space-x-2">
             <a
