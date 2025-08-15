@@ -1,6 +1,6 @@
 # PORTFOLIO-REACT
 
-*Showcase Your Journey, Built with Modern React*
+*Showcase Your Journey, Built with Modern React.*
 
 ![last commit](https://img.shields.io/github/last-commit/BelhiaSofianeCS50/Portfolio-React?style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-85.2%25-yellow?style=flat-square)
