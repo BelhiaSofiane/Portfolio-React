@@ -2,9 +2,9 @@
 
 *Showcase Your Journey, Built with Modern React.*
 
-![last commit](https://img.shields.io/github/last-commit/BelhiaSofianeCS50/Portfolio-React?style=flat-square)
+![last commit](https://img.shields.io/github/last-commit/BelhiaSofiane/Portfolio-React?style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-85.2%25-yellow?style=flat-square)
-![Languages](https://img.shields.io/github/languages/count/BelhiaSofianeCS50/Portfolio-React?style=flat-square)
+![Languages](https://img.shields.io/github/languages/count/BelhiaSofiane/Portfolio-React?style=flat-square)
 
 *Built with the tools and technologies:*
 
@@ -71,7 +71,7 @@ Before running this project, ensure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/BelhiaSofianeCS50/Portfolio-React.git
+   git clone https://github.com/BelhiaSofiane/Portfolio-React.git
    cd Portfolio-React
    ```
 
@@ -171,7 +171,7 @@ Portfolio-React/
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/BelhiaSofianeCS50/Portfolio-React/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/BelhiaSofiane/Portfolio-React/issues).
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -189,9 +189,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-**Belhia Sofiane** - [@BelhiaSofianeCS50](https://github.com/BelhiaSofianeCS50)
+**Belhia Sofiane** - [@BelhiaSofiane](https://github.com/BelhiaSofiane)
 
-Project Link: [https://github.com/BelhiaSofianeCS50/Portfolio-React](https://github.com/BelhiaSofianeCS50/Portfolio-React)
+Project Link: [https://github.com/BelhiaSofiane/Portfolio-React](https://github.com/BelhiaSofiane/Portfolio-React)
 
 ---
 
